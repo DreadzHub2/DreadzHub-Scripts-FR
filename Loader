@@ -1,0 +1,7 @@
+if game.PlaceId == 8204899140 or 8206123457 then
+loadstring(Game:HttpGet("https://pastebin.com/raw/3uK3wZHc"))()
+elseif game.PlaceId == 1537690962 then 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts/main/bss%20script"))()
+else
+	game.Players.LocalPlayer:Kick("Error loadng DreadzHub.\n\nNo supported game found.\n\nPlease join a supported game.")
+end
